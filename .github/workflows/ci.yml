@@ -34,6 +34,7 @@ jobs:
           username: ubuntu
           key: ${{ secrets.EC2_SSH_KEY }} # SSH private key
           script: |
+            echo "${{ secrets.TOKEN_GITHUB }}" | docker login ghcr.io -u Bhatt-Dev --password-stdin
             docker stop buildmyfolio-backend || true
             docker rm buildmyfolio-backend || true
             docker pull ghcr.io/bhatt-dev/buildmyfolio-backend:latest
