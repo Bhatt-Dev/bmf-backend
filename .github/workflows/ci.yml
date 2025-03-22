@@ -31,7 +31,7 @@ jobs:
         uses: appleboy/ssh-action@v0.1.10
         with:
           host: ${{ secrets.EC2_HOST }} # EC2 public IP
-          username: ec2-user
+          username: ubuntu
           key: ${{ secrets.EC2_SSH_KEY }} # SSH private key
           script: |
             docker stop buildmyfolio-backend || true
