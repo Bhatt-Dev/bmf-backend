@@ -1,0 +1,19 @@
+{
+  "name": "buildmyfolio-backend",
+  "version": "1.0.0",
+  "description": "Backend API for BuildMyFolio.site, a portfolio builder platform. Built with Node.js and Express.js, it manages user authentication, portfolio creation, LinkedIn data syncing, AI-powered content suggestions, and analytics tracking.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bhatt-Dev/bmf-backend.git"
+  },
+  "author": "anuragbhatt1805@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bhatt-Dev/bmf-backend/issues"
+  },
+  "homepage": "https://github.com/Bhatt-Dev/bmf-backend#readme"
+}
